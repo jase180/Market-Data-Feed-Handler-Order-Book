@@ -19,7 +19,7 @@ class OrderBook {
         std::map<double, uint32_t> asks; // map is sorted by lowest by default, neat
     public:
         // Constructor
-        OrderBook(const std::string& symbol);
+        OrderBook(const std::string& sym);
 
         // Add orders
         void addBid(double price, uint32_t volume);
