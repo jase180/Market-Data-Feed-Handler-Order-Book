@@ -1,6 +1,10 @@
 #include <iostream>
 #include "OrderBook.h"
 
+#include <fstream> // file stream (reading)
+#include <sstream> // parsing stream (parsing)
+#include <string>
+
 // Test OrderBook works
 int main() {
     // Create an order book for Apple stock
